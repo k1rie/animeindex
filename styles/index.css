@@ -97,3 +97,13 @@ body{
     align-items: center;
     gap: 20px;
 }
+
+@media screen and (max-width:890px) {
+    .nav__icon{
+        display: none;
+    }
+
+    .main__container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
